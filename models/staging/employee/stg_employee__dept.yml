@@ -1,0 +1,9 @@
+version: 2
+
+models:
+  - name: stg_employee__dept
+    columns:
+      - name: deptno
+        tests:
+          - unique
+          - not_null
