@@ -3,7 +3,7 @@ version: 2
 models:
   - name: stg_employee__emp
     columns:
-      - name: emp_no
+      - name: empno
         tests:
           - unique
           - not_null

@@ -4,7 +4,7 @@ with source as (
  ),
  renamed as (
     select 
-        empno emp_no,
+        empno,
         ename as emp_name,
         job,
         mgr as mgr_id,
