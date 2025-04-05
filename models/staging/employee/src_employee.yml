@@ -1,0 +1,10 @@
+version: 2
+
+sources:
+  - name: employee
+    description: 'emp data'
+    database: EMP_DB
+    schema: EMP_SCH
+    tables:
+      - name: emp
+      - name: dept
