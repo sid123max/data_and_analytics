@@ -1,6 +1,6 @@
 with source as (
     select * 
-    from source {{('employee' 'dept')}}
+    from  {{ source('employee', 'dept') }}
 )
 
  
