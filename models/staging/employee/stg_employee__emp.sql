@@ -12,8 +12,6 @@ with source as (
         sal,
         comm,
         deptno
+    from source
  )
  select * from renamed
-
-       
- )
